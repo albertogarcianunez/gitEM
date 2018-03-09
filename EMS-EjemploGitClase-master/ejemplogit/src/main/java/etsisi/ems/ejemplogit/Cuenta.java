@@ -6,8 +6,10 @@ public class Cuenta {
 	protected String mNumero;
 	protected String mTitular;
 	protected Vector<Movimiento> mMovimientos;
+        
 
 	public Cuenta(String numero, String titular) {
+            /* borja es tonto */
 		mNumero = numero;
 		mTitular = titular;
 		mMovimientos = new Vector<Movimiento>();
